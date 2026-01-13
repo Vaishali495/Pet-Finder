@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-yuji-boku: "Yuji Boku", sans-serif;
+}
+
+@layer utilities {
+  .font-yujiBoku {
+    font-family: var(--font-yuji-boku);
+    font-weight: 800;
+    font-style: normal;
+  }
+}
